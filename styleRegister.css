@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    background: rgb(98, 97, 97); /* Assuming a light gray background */
+}
+
+.container {
+    max-width: 500px;
+    min-height: 100vh;
+    margin: auto;
+    padding-top: 0;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mulah {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff8c00;
+}
+
+.welcome {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 50px;
+    color: #827e7e;
+}
+
+.register {
+    font-size: 30px;
+}
+
+.instruction {
+    font-size: 15px;
+    font-style: italic;
+}
+
+form {
+    padding: 0px 20px 20px;
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #645f5f;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 365px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.birthday {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.birthday .day {
+    text-align: center;
+    max-width: 70px;
+}
+
+.birthday .month {
+    text-align: center;
+    max-width: 70px;
+    margin-left: 10px;
+}
+
+.birthday .year {
+    text-align: center;
+    max-width: 137px;
+    margin-left: 10px;
+}
+
+.checkbox {
+    display: flex;
+    display: row;
+    align-items: left;
+    justify-content: flex-start;
+    margin-right: 250px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+.checkbox p {
+    margin: 0;
+    flex: 1;
+}
+
+button {
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff8c00; /* Orange color to match MULAH logo */
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #e67e00; /* Darker orange on hover */
+}
+
+.bottom-p {
+    display: inline;
+    border-top: rgb(198, 190, 190) solid 2px;
+    padding-top: 40px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.p1 {
+    color: #c6c1c1;
+}
+
+.p2 {
+    color: rgb(20, 20, 201);
+    font-weight: bold;
+}
